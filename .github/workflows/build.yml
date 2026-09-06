@@ -1,0 +1,29 @@
+name: 聚合书源
+on:
+  push:
+    branches: [master]
+    paths:
+      - '书源/*.json'
+      - 'build-all.ps1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 聚合 all.json
+        shell: pwsh
+        run: ./build-all.ps1
+
+      - name: 提交
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add all.json
+          git diff --cached --quiet && echo "无变化" || git commit -m "自动聚合书源 [skip ci]"
+          git push
