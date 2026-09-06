@@ -14,10 +14,10 @@
 
 **网络导入**（任选一条，哪个通用哪个）：
 
-- 直连：`https://raw.githubusercontent.com/cjj200011222/阅读书源/main/起点中文网·全能版.json`
-- jsDelivr：`https://cdn.jsdelivr.net/gh/cjj200011222/阅读书源@main/起点中文网·全能版.json`
-- jsDelivr 备用：`https://fastly.jsdelivr.net/gh/cjj200011222/阅读书源@main/起点中文网·全能版.json`
-- ghfast 镜像：`https://ghfast.top/https://raw.githubusercontent.com/cjj200011222/阅读书源/main/起点中文网·全能版.json`
+- 直连：`https://raw.githubusercontent.com/cjj200011222/legado-booksource/master/起点中文网·全能版.json`
+- jsDelivr：`https://cdn.jsdelivr.net/gh/cjj200011222/阅读书源@master/起点中文网·全能版.json`
+- jsDelivr 备用：`https://fastly.jsdelivr.net/gh/cjj200011222/阅读书源@master/起点中文网·全能版.json`
+- ghfast 镜像：`https://ghfast.top/https://raw.githubusercontent.com/cjj200011222/legado-booksource/master/起点中文网·全能版.json`
 
 **书源订阅**（自动同步更新）：阅读 APP → 书源管理 → 右上角 → 网站订阅 → 填上面任一链接。
 
