@@ -1,0 +1,56 @@
+[
+  {
+    "bookSourceComment": "知轩藏书（校对全本TXT下载站）书讯发现源\n\n## 说明\n- 本站是电子书下载站，无在线正文，此源仅用于：搜索、分类浏览、看简介/作者/封面/标签。\n- 详情页域名是 zxcs.click，下载跳 116pan 网盘（RAR 压缩包，网盘有反爬，无法在阅读内直接下载/阅读正文）。\n- 搜索支持书名/作者关键词；分类支持分页（每页20条）；近期更新/仙草榜一页 50 条不分页。\n- up_date: 2026-09-04\n\n## 域名备忘\n- 主站(列表/搜索): https://www.zxcs.info\n- 详情页: https://www.zxcs.click\n- 下载跳转: 详情页内「下 载 小 说」按钮（.click 或 .live 域的 /download/{id}）\n- 分类列表分页: /{拼音}/list_{页}.html（list_1 等于第 1 页）\n- 搜索分页: ?q=关键词&page=页码\n- 标签分页: /search/index/tag/id/{tid}.html/page/{页}.html\n- 标签id对照: 1穿越 2轻松 3系统流 4重生 5腹黑 6金手指 7热血 11无限流 12凡人流 21明星 24末世 28学生 32LOL 41赚钱\n\n## 规则备忘（列表页两种模板）\n- 分类/近期更新/仙草榜页: li 外层 class=book-li\n- 搜索/标签页: li 外层 class=book-list\n- 两种条目内部结构一致（都含 div.book-simple），故列表选择器统一用 class.book-simple\n- 封面在 div.cover 的 style 内联属性里（background-image:url 相对路径），用 @css:div.cover@style + ##正则 提取并拼接 zxcs.click 域",
+    "bookSourceGroup": "📚 书讯",
+    "bookSourceName": "知轩藏书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.zxcs.info",
+    "customOrder": 100,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "header": "{\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\"}",
+    "lastUpdateTime": 1767225600000,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "canReName": "true",
+      "name": "class.book-info__title@text",
+      "author": "class.book-info__author@text##\\s*\\.?$",
+      "kind": "class.book-info__categories@children@text##\\s",
+      "lastChapter": "class.book-info__time@text##.*更新时间：\\s*##更新于 ",
+      "intro": "class.intro-content@textNodes",
+      "coverUrl": "class.book-cover__img@src",
+      "downloadUrls": "class.J-getJumpUrl@href"
+    },
+    "ruleContent": {
+      "content": "class.intro-content@textNodes##\\n\\n##\\n",
+      "replaceRegex": "##(.*)##\\n---\\n此站为TXT下载站，无在线正文。如需下载请在浏览器打开详情页 https://www.zxcs.click/ 内点击「下 载 小 说」。"
+    },
+    "ruleExplore": {
+      "bookList": "class.book-simple",
+      "name": "class.book-title@text",
+      "author": "class.author@text",
+      "intro": "class.book-intro@text",
+      "kind": "class.rect@children@text##\\s",
+      "coverUrl": "@css:div.cover@style##.*url\\((.*?)\\).*##https://www.zxcs.click$1",
+      "bookUrl": "class.book-head@tag.a@href"
+    },
+    "ruleSearch": {
+      "bookList": "class.book-simple",
+      "name": "class.book-title@text",
+      "author": "class.author@text",
+      "intro": "class.book-intro@text",
+      "kind": "class.rect@children@text##\\s",
+      "coverUrl": "@css:div.cover@style##.*url\\((.*?)\\).*##https://www.zxcs.click$1",
+      "bookUrl": "class.book-head@tag.a@href"
+    },
+    "ruleToc": {
+      "chapterList": "class.book-simple",
+      "chapterName": "书讯页面（无章节目录）",
+      "chapterUrl": "class.book-info__time@text##.*更新时间：\\s*##{{baseUrl}}"
+    },
+    "searchUrl": "https://www.zxcs.info/search/index/init.html?q={{key}}&page={{page}}",
+    "exploreUrl": "近期更新::https://www.zxcs.info/jinqigengxin/\n都市::https://www.zxcs.info/dushi/list_{{page}}.html\n仙侠::https://www.zxcs.info/xianxia/list_{{page}}.html\n玄幻::https://www.zxcs.info/xuanhuan/list_{{page}}.html\n奇幻::https://www.zxcs.info/qihuan/list_{{page}}.html\n历史::https://www.zxcs.info/lishi/list_{{page}}.html\n游戏::https://www.zxcs.info/youxi/list_{{page}}.html\n武侠::https://www.zxcs.info/wuxia/list_{{page}}.html\n科幻::https://www.zxcs.info/kehuan/list_{{page}}.html\n体育::https://www.zxcs.info/tiyu/list_{{page}}.html\n悬疑::https://www.zxcs.info/lingyi/list_{{page}}.html\n军事::https://www.zxcs.info/junshi/list_{{page}}.html\n轻小说::https://www.zxcs.info/erciyuan/list_{{page}}.html\n仙草榜::https://www.zxcs.info/xiancaobang/\n穿越::https://www.zxcs.info/search/index/tag/id/1.html/page/{{page}}.html\n重生::https://www.zxcs.info/search/index/tag/id/4.html/page/{{page}}.html\n系统流::https://www.zxcs.info/search/index/tag/id/3.html/page/{{page}}.html\n轻松::https://www.zxcs.info/search/index/tag/id/2.html/page/{{page}}.html\n热血::https://www.zxcs.info/search/index/tag/id/7.html/page/{{page}}.html\n金手指::https://www.zxcs.info/search/index/tag/id/6.html/page/{{page}}.html\n凡人流::https://www.zxcs.info/search/index/tag/id/12.html/page/{{page}}.html",
+    "weight": 0
+  }
+]
