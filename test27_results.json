@@ -1,0 +1,574 @@
+[
+ {
+  "name": "💰 起点中文(编辑发现手动改月票月份5月版 看注释）",
+  "url": "http://www.qidian.com",
+  "search": {
+   "search_done": true,
+   "booklist_n": 0,
+   "toc_done": false,
+   "toc_n": 0,
+   "content_done": false,
+   "err": "Exception: 目录列表为空\n",
+   "page_got": true
+  },
+  "explore": {
+   "search_done": false,
+   "booklist_n": 0,
+   "toc_done": false,
+   "toc_n": 0,
+   "content_done": false,
+   "err": "Exception: org.mozilla.javascript.EcmaError: TypeError: 无法读取 null 的属性 “1” (<Unknown source",
+   "page_got": true
+  },
+  "exp_url": "http://www.qidian.com/rank/yuepiao/year2022-month05-page1/"
+ },
+ {
+  "name": "💰起点(意淫女神版)(食用必看源注释)",
+  "url": "https://www.qidian.com/##",
+  "search": {
+   "search_done": false,
+   "booklist_n": 10,
+   "toc_done": false,
+   "toc_n": 0,
+   "content_done": false,
+   "err": "",
+   "page_got": true
+  },
+  "explore": {
+   "search_done": false,
+   "booklist_n": 0,
+   "toc_done": false,
+   "toc_n": 0,
+   "content_done": false,
+   "err": "",
+   "page_got": true
+  },
+  "exp_url": "https://www.qidian.com/rank/yuepiao?page=1"
+ },
+ {
+  "name": "起点中文（男频－－标签）",
+  "url": "http://www.qidian.com 🎃",
+  "search": {
+   "search_done": false,
+   "booklist_n": 0,
+   "toc_done": false,
+   "toc_n": 0,
+   "content_done": false,
+   "err": "Exception: Invalid URL host: \"www.qidian.com 🎃\"\n\tat okhttp3.HttpUrl$Builder.parse$okhttp(S",
+   "page_got": false
+  },
+  "explore": {
+   "search_done": false,
+   "booklist_n": 0,
+   "toc_done": false,
+   "toc_n": 0,
+   "content_done": false,
+   "err": "Exception: Unable to resolve host \"temp-t27-e2.local\": No address associated with hostname",
+   "page_got": false
+  },
+  "exp_url": "https"
+ },
+ {
+  "name": "起点中文（女频－－标签）",
+  "url": "http://qidian.com 🎊",
+  "search": {
+   "search_done": false,
+   "booklist_n": 0,
+   "toc_done": false,
+   "toc_n": 0,
+   "content_done": false,
+   "err": "Exception: Invalid URL host: \"qidian.com 🎊\"\n\tat okhttp3.HttpUrl$Builder.parse$okhttp(Sourc",
+   "page_got": false
+  },
+  "explore": {
+   "search_done": false,
+   "booklist_n": 0,
+   "toc_done": false,
+   "toc_n": 0,
+   "content_done": false,
+   "err": "Exception: Unable to resolve host \"temp-t27-e3.local\": No address associated with hostname",
+   "page_got": false
+  },
+  "exp_url": "https"
+ },
+ {
+  "name": "起点中文·书架➕起点加入书架-阅读登录-全部加入书架-起点书架前100本书移动到其他分组-重复就可以全部加入书架-换源QQ浏览器>换其他源",
+  "url": "https://m.qidian.com#我的书架",
+  "search": {
+   "search_done": true,
+   "booklist_n": 1427,
+   "toc_done": true,
+   "toc_n": 1427,
+   "content_done": true,
+   "err": "",
+   "page_got": true
+  },
+  "explore": {
+   "search_done": false,
+   "booklist_n": 0,
+   "toc_done": false,
+   "toc_n": 0,
+   "content_done": false,
+   "err": "Exception: org.mozilla.javascript.EcmaError: TypeError: 无法读取 null 的属性 “1” (<Unknown source",
+   "page_got": true
+  },
+  "exp_url": "https://my.qidian.com/bookcase?page=1&_csrfToken={{cookie.getKey(\"https://qidian.com\",\"_csrfToken\")}}"
+ },
+ {
+  "name": "💰 起点小说(支持vip章节)",
+  "url": "https://www.qidian.com/",
+  "search": {
+   "search_done": true,
+   "booklist_n": 10,
+   "toc_done": false,
+   "toc_n": 0,
+   "content_done": false,
+   "err": "Exception: org.mozilla.javascript.EcmaError: TypeError: 无法读取 null 的属性 “1” (<Unknown source",
+   "page_got": true
+  },
+  "explore": {
+   "search_done": false,
+   "booklist_n": 0,
+   "toc_done": false,
+   "toc_n": 0,
+   "content_done": false,
+   "err": "Exception: org.mozilla.javascript.EcmaError: TypeError: 无法读取 null 的属性 “1” (<Unknown source",
+   "page_got": true
+  },
+  "exp_url": "https://www.qidian.com/rank/yuepiao/page1/"
+ },
+ {
+  "name": "起点限免（同人小说网）",
+  "url": "https://m.qidian.com#同人小说网",
+  "search": {
+   "search_done": false,
+   "booklist_n": 0,
+   "toc_done": false,
+   "toc_n": 0,
+   "content_done": false,
+   "err": "",
+   "page_got": true
+  },
+  "explore": null,
+  "exp_url": null
+ },
+ {
+  "name": "🎉起点中文网(修复搜索只有一页的问题)",
+  "url": "https://www.qidian.com",
+  "search": {
+   "search_done": true,
+   "booklist_n": 1427,
+   "toc_done": true,
+   "toc_n": 1427,
+   "content_done": true,
+   "err": "",
+   "page_got": true
+  },
+  "explore": {
+   "search_done": true,
+   "booklist_n": 818,
+   "toc_done": true,
+   "toc_n": 818,
+   "content_done": true,
+   "err": "",
+   "page_got": true
+  },
+  "exp_url": "https://www.qidian.com/rank/yuepiao/page1/"
+ },
+ {
+  "name": "0714🧞‍♂️发现🍄支持正版🍄qidian🍄起点中文网",
+  "url": "https://www.qidian.com/*",
+  "search": {
+   "search_done": true,
+   "booklist_n": 0,
+   "toc_done": false,
+   "toc_n": 0,
+   "content_done": false,
+   "err": "Exception: 目录列表为空\n",
+   "page_got": true
+  },
+  "explore": {
+   "search_done": true,
+   "booklist_n": 0,
+   "toc_done": false,
+   "toc_n": 0,
+   "content_done": false,
+   "err": "Exception: 目录列表为空\n",
+   "page_got": true
+  },
+  "exp_url": "https://www.qidian.com/all?style=1&page=1"
+ },
+ {
+  "name": "起点中文网[搜书专用]",
+  "url": "https://www.qidian.com##zhbyjm7783",
+  "search": {
+   "search_done": true,
+   "booklist_n": 1427,
+   "toc_done": true,
+   "toc_n": 1427,
+   "content_done": true,
+   "err": "",
+   "page_got": true
+  },
+  "explore": null,
+  "exp_url": null
+ },
+ {
+  "name": "起点中文（优+）",
+  "url": "https://m.qidian.com#按钮筛选",
+  "search": {
+   "search_done": true,
+   "booklist_n": 1418,
+   "toc_done": true,
+   "toc_n": 1418,
+   "content_done": true,
+   "err": "",
+   "page_got": true
+  },
+  "explore": {
+   "search_done": false,
+   "booklist_n": 0,
+   "toc_done": false,
+   "toc_n": 0,
+   "content_done": false,
+   "err": "Exception: Unable to resolve host \"temp-t27-e10.local\": No address associated with hostnam",
+   "page_got": false
+  },
+  "exp_url": "{\\{java.longToast(\"本书源只支持最新版洛娅橙改版阅读Σ\\\\n请安装后重新导入书源\");java.startBrowser(\"https"
+ },
+ {
+  "name": "🌈起点中文·发现（无搜索）",
+  "url": "https://m.qidian.com#正版发现",
+  "search": {
+   "search_done": true,
+   "booklist_n": 1427,
+   "toc_done": true,
+   "toc_n": 1427,
+   "content_done": true,
+   "err": "",
+   "page_got": true
+  },
+  "explore": {
+   "search_done": false,
+   "booklist_n": 0,
+   "toc_done": false,
+   "toc_n": 0,
+   "content_done": false,
+   "err": "Exception: org.mozilla.javascript.EcmaError: TypeError: 无法读取 null 的属性 “1” (<Unknown source",
+   "page_got": true
+  },
+  "exp_url": "https://m.qidian.com#正版发现/majax/rank/yuepiaolist?gender=male&pageNum=1&_csrfToken={{cookie.getKey(\"https://qidian.com\",\"_csrfToken\")}}"
+ },
+ {
+  "name": "起点(部分可看)",
+  "url": "https://m.qidian.com##限免部分书",
+  "search": {
+   "search_done": true,
+   "booklist_n": 1418,
+   "toc_done": true,
+   "toc_n": 1418,
+   "content_done": true,
+   "err": "",
+   "page_got": true
+  },
+  "explore": {
+   "search_done": false,
+   "booklist_n": 0,
+   "toc_done": false,
+   "toc_n": 0,
+   "content_done": false,
+   "err": "",
+   "page_got": true
+  },
+  "exp_url": "https://m.qidian.com##限免部分书/majax/rank/yuepiaolist?gender=male&pageNum=1&_csrfToken={{cookie.getKey(\"https://qidian.com\",\"_csrfToken\")}}"
+ },
+ {
+  "name": "起点限免（优+）",
+  "url": "https://m.qidian.com##部分限免源",
+  "search": {
+   "search_done": true,
+   "booklist_n": 1418,
+   "toc_done": true,
+   "toc_n": 1418,
+   "content_done": true,
+   "err": "",
+   "page_got": true
+  },
+  "explore": {
+   "search_done": false,
+   "booklist_n": 0,
+   "toc_done": false,
+   "toc_n": 0,
+   "content_done": false,
+   "err": "",
+   "page_got": true
+  },
+  "exp_url": "https://m.qidian.com##部分限免源/majax/rank/yuepiaolist?gender=male&pageNum=1&_csrfToken={{cookie.getKey(\"https://qidian.com\",\"_csrfToken\")}}"
+ },
+ {
+  "name": "🥥起点中文网",
+  "url": "https://www.qidian.com/##电脑端",
+  "search": {
+   "search_done": true,
+   "booklist_n": 1427,
+   "toc_done": true,
+   "toc_n": 1427,
+   "content_done": true,
+   "err": "",
+   "page_got": true
+  },
+  "explore": {
+   "search_done": false,
+   "booklist_n": 20,
+   "toc_done": false,
+   "toc_n": 0,
+   "content_done": false,
+   "err": "",
+   "page_got": true
+  },
+  "exp_url": "https://www.qidian.com/all?style=1&page=1"
+ },
+ {
+  "name": "📃起点中文",
+  "url": "https://www.qidian.com##自用",
+  "search": {
+   "search_done": true,
+   "booklist_n": 1427,
+   "toc_done": true,
+   "toc_n": 1427,
+   "content_done": true,
+   "err": "",
+   "page_got": true
+  },
+  "explore": {
+   "search_done": true,
+   "booklist_n": 102,
+   "toc_done": true,
+   "toc_n": 102,
+   "content_done": true,
+   "err": "",
+   "page_got": true
+  },
+  "exp_url": "https://www.qidian.com##自用/all?style=1&page=1"
+ },
+ {
+  "name": "起点中文",
+  "url": "https://www.qidian.com##标签",
+  "search": {
+   "search_done": true,
+   "booklist_n": 1427,
+   "toc_done": true,
+   "toc_n": 1427,
+   "content_done": true,
+   "err": "",
+   "page_got": true
+  },
+  "explore": {
+   "search_done": false,
+   "booklist_n": 0,
+   "toc_done": false,
+   "toc_n": 0,
+   "content_done": false,
+   "err": "Exception: org.mozilla.javascript.EcmaError: TypeError: 无法读取 null 的属性 “1” (<Unknown source",
+   "page_got": true
+  },
+  "exp_url": "https://www.qidian.com##标签/all?style=1&page=1"
+ },
+ {
+  "name": "起点📝书荒一个月内更新完本",
+  "url": "https://www.qidian.com#柳树",
+  "search": {
+   "search_done": true,
+   "booklist_n": 1427,
+   "toc_done": true,
+   "toc_n": 1427,
+   "content_done": true,
+   "err": "",
+   "page_got": true
+  },
+  "explore": {
+   "search_done": true,
+   "booklist_n": 2933,
+   "toc_done": true,
+   "toc_n": 2933,
+   "content_done": true,
+   "err": "",
+   "page_got": true
+  },
+  "exp_url": "https://www.qidian.com/finish/update4-orderId3/"
+ },
+ {
+  "name": "起点中文网 m.qidian.com",
+  "url": "https://m.qidian.com",
+  "search": {
+   "search_done": true,
+   "booklist_n": 1418,
+   "toc_done": true,
+   "toc_n": 1418,
+   "content_done": true,
+   "err": "",
+   "page_got": true
+  },
+  "explore": {
+   "search_done": false,
+   "booklist_n": 0,
+   "toc_done": false,
+   "toc_n": 0,
+   "content_done": false,
+   "err": "",
+   "page_got": true
+  },
+  "exp_url": "https://m.qidian.com/majax/rank/yuepiaolist?gender=male&pageNum=1&_csrfToken={{cookie.getKey(\"https://qidian.com\",\"_csrfToken\")}}"
+ },
+ {
+  "name": "起点读书",
+  "url": "https://druid.if.qidian.com",
+  "search": {
+   "search_done": false,
+   "booklist_n": 0,
+   "toc_done": false,
+   "toc_n": 0,
+   "content_done": false,
+   "err": "Exception: 搜索url不能为空\n",
+   "page_got": false
+  },
+  "explore": null,
+  "exp_url": null
+ },
+ {
+  "name": "💵 起点中文网",
+  "url": "http://www.qidian.com/起点中文",
+  "search": {
+   "search_done": false,
+   "booklist_n": 0,
+   "toc_done": false,
+   "toc_n": 0,
+   "content_done": false,
+   "err": "Exception: 搜索url不能为空\n",
+   "page_got": false
+  },
+  "explore": null,
+  "exp_url": null
+ },
+ {
+  "name": "💵 起点总榜",
+  "url": "https://www.qidian.com#总榜",
+  "search": {
+   "search_done": false,
+   "booklist_n": 0,
+   "toc_done": false,
+   "toc_n": 0,
+   "content_done": false,
+   "err": "Exception: 搜索url不能为空\n",
+   "page_got": false
+  },
+  "explore": null,
+  "exp_url": null
+ },
+ {
+  "name": "💵 起点月票",
+  "url": "https://www.qidian.com/月票",
+  "search": {
+   "search_done": false,
+   "booklist_n": 0,
+   "toc_done": false,
+   "toc_n": 0,
+   "content_done": false,
+   "err": "Exception: 搜索url不能为空\n",
+   "page_got": false
+  },
+  "explore": null,
+  "exp_url": null
+ },
+ {
+  "name": "💵 起点男榜",
+  "url": "https://m.qidian.com/男频排行",
+  "search": {
+   "search_done": false,
+   "booklist_n": 0,
+   "toc_done": false,
+   "toc_n": 0,
+   "content_done": false,
+   "err": "Exception: 搜索url不能为空\n",
+   "page_got": false
+  },
+  "explore": null,
+  "exp_url": null
+ },
+ {
+  "name": "💵 起点男频",
+  "url": "https://www.qidian.com//男频标签",
+  "search": {
+   "search_done": false,
+   "booklist_n": 0,
+   "toc_done": false,
+   "toc_n": 0,
+   "content_done": false,
+   "err": "Exception: 搜索url不能为空\n",
+   "page_got": false
+  },
+  "explore": null,
+  "exp_url": null
+ },
+ {
+  "name": "💵 起点标签♂",
+  "url": "https://www.qidian.com/男频标签",
+  "search": {
+   "search_done": false,
+   "booklist_n": 0,
+   "toc_done": false,
+   "toc_n": 0,
+   "content_done": false,
+   "err": "Exception: 搜索url不能为空\n",
+   "page_got": false
+  },
+  "explore": null,
+  "exp_url": null
+ },
+ {
+  "name": "起点中文-发现",
+  "url": "https://m.qidian.com#",
+  "search": {
+   "search_done": true,
+   "booklist_n": 1418,
+   "toc_done": true,
+   "toc_n": 1418,
+   "content_done": true,
+   "err": "",
+   "page_got": true
+  },
+  "explore": {
+   "search_done": false,
+   "booklist_n": 0,
+   "toc_done": false,
+   "toc_n": 0,
+   "content_done": false,
+   "err": "",
+   "page_got": true
+  },
+  "exp_url": "https://m.qidian.com#/majax/rank/yuepiaolist?gender=male&pageNum=1&_csrfToken={{cookie.getKey(\"https://qidian.com\",\"_csrfToken\")}}"
+ },
+ {
+  "name": "起点🎃",
+  "url": "https://m.qidian.com#🎃",
+  "search": {
+   "search_done": true,
+   "booklist_n": 1418,
+   "toc_done": true,
+   "toc_n": 1418,
+   "content_done": true,
+   "err": "",
+   "page_got": true
+  },
+  "explore": {
+   "search_done": false,
+   "booklist_n": 0,
+   "toc_done": false,
+   "toc_n": 0,
+   "content_done": false,
+   "err": "",
+   "page_got": true
+  },
+  "exp_url": "https://m.qidian.com#🎃/majax/rank/yuepiaolist?gender=male&pageNum=1&_csrfToken={{cookie.getKey(\"https://qidian.com\",\"_csrfToken\")}}"
+ }
+]
