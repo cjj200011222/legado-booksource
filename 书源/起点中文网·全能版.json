@@ -3,7 +3,7 @@
   "bookSourceGroup": "起点合并",
   "bookSourceUrl": "https://m.qidian.com#全能版",
   "bookSourceType": 0,
-  "bookSourceComment": "起点M站全能合并版 v1.3 (2026-09-06)\n搜索: 男频直接搜, 女频加前缀 [女]关键词\n发现: 男频9+女频9榜单 + 15男频主类 + 9女频主类 + 96子类\n详情: og:meta + emoji 美化\n目录: wxapp API (分卷+VIP标记+时间字数)\n正文: main#c-{cid} 容器 (免费章节; VIP未登录返回试读提示)\n数据来源: 7个旧源功能合并 (34/19/23/7号源精华)\nPC站与qdmm已202反爬死, 全部走 m.qidian.com\nv1.3: 新增免费限免入口 (/free/)\nv1.3: 修复目录加载失败 (JS改用java.ajax调wxapp API; 卷标记改isVolume)\nv1.3: 目录规则照真机可用源重写 — JS返回title/u/v/t由规则字段映射",
+  "bookSourceComment": "起点M站全能合并版 v1.5 (2026-09-06)\n搜索: 男频直接搜, 女频加前缀 [女]关键词\n发现: 男频9+女频9榜单 + 15男频主类 + 9女频主类 + 96子类\n详情: og:meta + emoji 美化\n目录: wxapp API (分卷+VIP标记+时间字数)\n正文: main#c-{cid} 容器 (免费章节; VIP未登录返回试读提示)\n数据来源: 7个旧源功能合并 (34/19/23/7号源精华)\nPC站与qdmm已202反爬死, 全部走 m.qidian.com\nv1.5: 新增免费限免入口 (/free/)\nv1.5: 修复目录加载失败 (JS改用java.ajax调wxapp API; 卷标记改isVolume)\nv1.5: 目录规则照真机可用源重写 — JS返回title/u/v/t由规则字段映射\nv1.5: 正文规则照19号源抄 (Jsoup class content p) + 23号VIP分流, Jsoup端到端验证69段通过\nv1.5: 正文JS改for循环 (Rhino无Elements.each), 真执行验证通过",
   "bookUrlPattern": ".*qidian.*",
   "customOrder": 0,
   "enabled": true,
@@ -15,7 +15,7 @@
     "User-Agent": "Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
     "Referer": "https://m.qidian.com/"
   },
-  "lastUpdateTime": 1788739969282,
+  "lastUpdateTime": 1788740378613,
   "respondTime": 180000,
   "ruleSearch": {
     "bookList": "class.y-list__content@div.y-list__item",
@@ -48,7 +48,7 @@
     "updateTime": "t"
   },
   "ruleContent": {
-    "content": "@css:main@p@textNodes",
+    "content": "<js>\nvar body = \"\";\nif (chapter.isVip()) {\n  var vipMain = org.jsoup.Jsoup.parse(String(result)).select(\"main\");\n  body = vipMain.size() > 0 ? vipMain.get(0).html() : \"本章为VIP章节，未登录起点账号只能看试读。请导入书架源登录后阅读。\";\n} else {\n  var els = org.jsoup.Jsoup.parse(String(result)).select(\"main[class*=content] p\");\n  var sb = [];\n  for (var i = 0; i < els.size(); i++) {\n    sb.push(els.get(i).html());\n  }\n  body = sb.join(\"\\n\");\n}\nbody\n</js>",
     "nextContentUrl": "",
     "replaceRegex": ""
   },
