@@ -1,7 +1,7 @@
 [
   {
     "bookSourceComment": "// Error: org.mozilla.javascript.EcmaError: SyntaxError: Unexpected token: < (<Unknown source>#3) in <Unknown source> at line number 3\n\n记得登陆",
-    "bookSourceGroup": "优质自筛",
+    "bookSourceGroup": "自用维护",
     "bookSourceName": "起点中文·书架➕起点加入书架-阅读登录-全部加入书架-起点书架前100本书移动到其他分组-重复就可以全部加入书架-换源QQ浏览器>换其他源",
     "bookSourceType": 0,
     "bookSourceUrl": "https://m.qidian.com#我的书架",
@@ -69,7 +69,7 @@
   },
   {
     "bookSourceComment": "//20240223By_zhbyjm7783 制作\n//20240224By_遇知 修改目录规则，加上分卷，完善VIP标识\n//202501022By_聆听月与悦 完善目录规则+简介规则（💎为付费章节，💮为免费章节）\n//\t发现除排行榜外均为免费分类\n搜索和发现为空时，点击登录一次\n必须勾选CookieJar",
-    "bookSourceGroup": "优质自筛",
+    "bookSourceGroup": "自用维护",
     "bookSourceName": "🎉起点中文网(修复搜索只有一页的问题)",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.qidian.com",
@@ -115,7 +115,7 @@
   },
   {
     "bookSourceComment": "20241024发现优化\n20240223By_zhbyjm7783 制作\n20240224By_遇知 修改目录规则，加上分卷，完善VIP标识\n搜索和发现为空时，点击登录一次\n必须勾选CookieJar",
-    "bookSourceGroup": "优质自筛",
+    "bookSourceGroup": "自用维护",
     "bookSourceName": "起点中文网[搜书专用]",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.qidian.com##zhbyjm7783",
@@ -166,7 +166,7 @@
   },
   {
     "bookSourceComment": "/*\n部分书vip章节可看\n每天可看30章vip\n代人转发书源\n*/",
-    "bookSourceGroup": "260731",
+    "bookSourceGroup": "自用维护",
     "bookSourceName": "起点(部分可看)",
     "bookSourceType": 0,
     "bookSourceUrl": "https://m.qidian.com##限免部分书",
@@ -222,7 +222,7 @@
   },
   {
     "bookSourceComment": "24.4.24\n目录规则—遇知\n书源基础制作—楠枫\n发现规则:http://sy.legado1.top/sy.php/9f060b5422f111716da261ee4d14d90d.json\n搜索和发现不能用时记得登录，切记切记要勾选右上角的CookieJar",
-    "bookSourceGroup": "",
+    "bookSourceGroup": "自用维护",
     "bookSourceName": "🥥起点中文网",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.qidian.com/##电脑端",
@@ -283,7 +283,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "优质自筛",
+    "bookSourceGroup": "自用维护",
     "bookSourceName": "起点📝书荒一个月内更新完本",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.qidian.com#柳树",
