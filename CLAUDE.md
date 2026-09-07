@@ -16,6 +16,12 @@
   - 判定：日志含 `搜索页解析完成`/`目录列表解析完成`/`正文页解析完成` 即对应环节可用；`列表大小:N` 看结果数；`Exception` 行看死因
   - Python：`pip install websockets`，asyncio + `websockets.connect()` 发 JSON 收文本流
 - **本机注意**：访问局域网 IP 必须 `curl --noproxy '*'`（本机代理 127.0.0.1:7890 会拦）
+- **实时管理手机源**（改完即生效，无需订阅更新）：
+  - `POST /saveBookSource`（**单对象**；数组会被当多源解析失败）写入/覆盖单个源
+  - `POST /saveBookSources`（数组）批量写入，同 URL 旧源自动覆盖；54 源分 6 批每批 10 个约几十秒
+  - `POST /deleteBookSources`（数组 `[{"bookSourceUrl": "…"}]`）删除
+  - 删除时按**真机上实际存在的 URL 精确匹配**——源名可能带前导空格/emoji（` 起点中文网·全能版` 就因此漏删过一次），最稳做法：先 `GET /getBookSources` 拉全量（37MB/约 5 秒，手机 6800+ 源时才能成功，短超时会失败）拿准确清单再删，删后复查
+  - 全量拉取偶发 chunked 超时：重试即可；确认单个源存在与否用 `getBookSource?url=` 单查（快且稳）
 - **为什么**：起点 PC 站有 WAF JS 挑战（probe.js 202 页），本机 curl 永远拿不到数据，但真机 webView 执行 JS 就能过——**本机拿不到 ≠ 源不能用**；只有真机调试也失败才是真死
 
 ## 项目现状（2026-09-07）
