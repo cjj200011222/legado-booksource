@@ -4,7 +4,7 @@
     "bookSourceGroup": "起点合并",
     "bookSourceUrl": "https://m.qidian.com#全能版",
     "bookSourceType": 0,
-    "bookSourceComment": "起点M站全能合并版 v1.2 (2026-09-06)\n搜索: 男频直接搜, 女频加前缀 [女]关键词\n发现: 男频9+女频9榜单 + 15男频主类 + 9女频主类 + 96子类\n详情: og:meta + emoji 美化\n目录: wxapp API (分卷+VIP标记+时间字数)\n正文: main#c-{cid} 容器 (免费章节; VIP未登录返回试读提示)\n数据来源: 7个旧源功能合并 (34/19/23/7号源精华)\nPC站与qdmm已202反爬死, 全部走 m.qidian.com\nv1.2: 新增免费限免入口 (/free/)\nv1.2: 修复目录加载失败 (JS改用java.ajax调wxapp API; 卷标记改isVolume)",
+    "bookSourceComment": "起点M站全能合并版 v1.3 (2026-09-06)\n搜索: 男频直接搜, 女频加前缀 [女]关键词\n发现: 男频9+女频9榜单 + 15男频主类 + 9女频主类 + 96子类\n详情: og:meta + emoji 美化\n目录: wxapp API (分卷+VIP标记+时间字数)\n正文: main#c-{cid} 容器 (免费章节; VIP未登录返回试读提示)\n数据来源: 7个旧源功能合并 (34/19/23/7号源精华)\nPC站与qdmm已202反爬死, 全部走 m.qidian.com\nv1.3: 新增免费限免入口 (/free/)\nv1.3: 修复目录加载失败 (JS改用java.ajax调wxapp API; 卷标记改isVolume)\nv1.3: 目录规则照真机可用源重写 — JS返回title/u/v/t由规则字段映射",
     "bookUrlPattern": ".*qidian.*",
     "customOrder": 0,
     "enabled": true,
@@ -16,7 +16,7 @@
       "User-Agent": "Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
       "Referer": "https://m.qidian.com/"
     },
-    "lastUpdateTime": 1788739568688,
+    "lastUpdateTime": 1788739969282,
     "respondTime": 180000,
     "ruleSearch": {
       "bookList": "class.y-list__content@div.y-list__item",
@@ -42,7 +42,11 @@
       "canReName": "1"
     },
     "ruleToc": {
-      "chapterList": "<js>\nvar bookId = baseUrl.match(/book\\/(\\d+)/)[1];\nvar api = 'https://wxapp.qidian.com/api/book/categoryV2?bookId=' + bookId + '&_csrfToken=';\nvar json = JSON.parse(java.ajax(api)).data;\nvar list = [];\njson.vs.forEach(function(vol){\n  list.push({ name: '【' + vol.vN + '】', isVolume: true });\n  vol.cs.forEach(function(ch){\n    var vip = ch.sS != 1 ? '🔒 ' : '';\n    list.push({\n      name: vip + ch.cN,\n      url: 'https://m.qidian.com/chapter/' + bookId + '/' + ch.id + '/',\n      updateTime: ch.uT + ' · ' + ch.cnt + '字' + (ch.sS != 1 ? ' · VIP' : '')\n    });\n  });\n});\nlist;\n</js>"
+      "chapterList": "<js>\nvar bookId = baseUrl.match(/(\\d+)/)[1];\nresult = java.ajax(\"https://wxapp.qidian.com/api/book/categoryV2?bookId=\" + bookId + \"&_csrfToken=\");\nvar charts = [];\nJSON.parse(result).data.vs.map(function(vol){\n  vol.cs.map(function(o){\n    var chart = {\n      \"id\": o.id,\n      \"title\": o.cN,\n      \"v\": o.sS == 0,\n      \"t\": o.uT + \"  \" + o.cnt + \"字\",\n      \"u\": \"https://m.qidian.com/chapter/\" + bookId + \"/\" + o.id + \"/\"\n    };\n    charts.push(chart);\n  });\n});\ncharts;\n</js>",
+      "chapterName": "title",
+      "chapterUrl": "u",
+      "isVip": "v",
+      "updateTime": "t"
     },
     "ruleContent": {
       "content": "@css:main@p@textNodes",
